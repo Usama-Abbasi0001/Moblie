@@ -1,0 +1,226 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+}
+.mob-app{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 414px;
+    background-color: #FAF9FF;
+    max-height: 800px;
+    height: 800px;
+    gap: 20px;
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+    align-items: center;
+    padding-top: 10px;
+    width:100%;
+    height: 64px;
+    background: #ffffff;
+    box-shadow: 0px 1px 9px 0px rgba(0, 0, 0, 0.07);
+}
+.home a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+.today{
+    width: 358px;
+    height: 50px;
+    background: 
+    rgba(255, 255, 255, 1);
+    border-radius: 3px;
+    box-shadow: 1px 1px 8px 0px rgba(0, 0, 0, 0.07);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.today-under{
+    width: 325px;
+    height: 26px;
+}
+.navegation{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+}
+.center-but{
+    font-size: 11px;
+    border-radius: 12px;
+    padding-top: 5px;
+    width: 93px;
+    height: 26px;
+    background: rgba(239, 232, 232, 1);
+    box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.16);
+}
+.activity1{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 358px;
+    height: 566px;
+    background:rgba(255, 255, 255, 1);
+    box-shadow: 1px 1px 6px 0px rgba(0, 0, 0, 0.09);
+    padding-top: 20px;
+}
+.ste{
+    color: rgba(138, 138, 138, 1);
+    font-size: 13px;
+}
+.twenty{
+    color: black;
+    font-size: 40px;
+}
+.tow-only{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.three-itame{
+    width: 355px;
+    height: 65px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 20px;
+}
+.first-itame{
+    width: 101px;
+    height:57px;
+    border-radius: 12px;
+    background:rgba(249, 249, 249, 1);
+    box-shadow: 1px 1px 15px 0px rgba(0, 0, 0, 0.13);
+    text-align: center;
+    padding-top: 13px;
+}
+.Distance{
+    color:  rgba(138, 138, 138, 1);
+    font-size: 12px;
+    padding-bottom: 3px;
+}
+.thirtythree{
+    color: black;
+    font-size: 14px;
+}
+.second-itame{
+    width: 101px;
+    height:57px;
+    border-radius: 12px;
+    background:rgba(249, 249, 249, 1);
+    box-shadow: 1px 1px 15px 0px rgba(0, 0, 0, 0.13);
+    text-align: center;
+    padding-top: 13px;
+}
+.third-itame{
+    width: 101px;
+    height:57px;
+    border-radius: 12px;
+    background:rgba(249, 249, 249, 1);
+    box-shadow: 1px 1px 15px 0px rgba(0, 0, 0, 0.13);
+    text-align: center;
+    padding-top: 13px;
+
+}
+.vector0{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 340px;
+    height: 350px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.vec-2{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.vec-4 img{
+    padding-top: 180px;
+}
+.vec-5{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.vec-6 img{
+    padding-top: 80px;
+}
+.vec-18{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-top: 30px;
+}
+.vec-17{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-top: 30px;
+}
+.vec-12{
+    padding-top: 60px;
+}
+.vec-13{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-top: 100px;
+}
+.vec-00{
+    padding-top: 200px;
+}
+.number{
+    width: 340px;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+footer{
+    width: 100%;
+    height: 106px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+}
+.go-box{
+    width: 60px;
+    height: 60px;
+    align-self: center;
+    background:rgba(85, 70, 175, 1);
+    border-radius: 50%;
+    text-align: center;
+    padding-top: 15px;
+}
+.go1{
+    font-size: 24px;
+    color: white;
+}
+.foot{
+    width: 100%;
+    height: 72px;
+    background: rgba(255, 255, 255, 1);
+    box-shadow: 1px 1px 6px 1px rgba(0, 0, 0, 0.09);
+}
+#you{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
